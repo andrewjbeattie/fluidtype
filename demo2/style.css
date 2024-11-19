@@ -82,23 +82,6 @@ nav {
 }
 
 
-@font-face {
-  font-family: 'source_serif';
-  src: url('sourceserifpro-black-webfont.woff2') format('woff2'),
-    url('sourceserifpro-black-webfont.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'source_serif';
-  src: url('sourceserifpro-regular-webfont.woff2') format('woff2'),
-    url('sourceserifpro-regular-webfont.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 
 /* Typography */
 
@@ -106,9 +89,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  background: #F0F0F0;
+  background: #f2ede8;
   color: #222;
-  font: 400 var(--fluid-0) / 1.6 'source_serif', Georgia, serif;
+  font: 400 var(--fluid-0) / 1.6 'lora', Georgia, serif;
+
 }
 
 h1,
@@ -121,12 +105,14 @@ h4 {
 }
 
 h1 {
-  font-size: var(--fluid-3);
+  font-size: var(--fluid-4);;
 }
 
 h2 {
   font-size: var(--fluid-2);
 }
+
+
 
 .prose > p:first-of-type {
   font-size: var(--fluid-1);
@@ -187,4 +173,5 @@ h2 {
 .additive-spacing > hr:last-child {
   margin: var(--space-2) 0;
 }
+
 
