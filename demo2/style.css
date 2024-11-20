@@ -89,7 +89,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  background: #f2ede8;
+  background-image: linear-gradient(to bottom right, #feeddc,#eeedec);
   color: #222;
   font: 400 var(--fluid-0) / 1.6 'lora', Georgia, serif;
 
